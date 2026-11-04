@@ -1,0 +1,80 @@
+  @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Includes padding in total size */
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: lightskyblue; /* Added just to visualize */
+  margin: 0 auto;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.studio-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "VT323", monospace;
+  font-size: 48px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.welcome-message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "VT323", monospace;
+  font-size: 28px;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+.what-is {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "VT323", monospace;
+  font-size: 26px;
+  color: #444;
+  margin-bottom: 15px;
+  margin: 0 auto;
+}
+
+.what-is-list {
+   display: list-item;
+   justify-content: center;
+    align-items: center;
+   margin: 0 auto;
+   list-style-type: none;
+   font-family: "VT323", monospace;
+   font-size: 24px;
+   flex: 1;
+   min-width: 250px;
+   flex-direction: column;
+   text-align: center;
+}
+
+.enjoy-message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  font-family: "VT323", monospace;
+  font-size: 24px;
+  color: #555;
+  margin-top: 20px;
+}
